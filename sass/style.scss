@@ -121,3 +121,48 @@ header {
   margin-left: -5em;
 }
 
+//login page
+
+header.login_head {
+
+  .container_login_left {
+    width: 50%;
+    float: left;
+    background-color: $trans-purple;
+    height: 4em;
+
+      h2  {
+        margin-left: 2em;
+        display: inline-block;
+        margin-top: .5em;
+        float: left;
+
+      }
+  }
+
+  .container_login_right {
+    width: 50%;
+    height: 4em;
+    background-color: $trans-purple;
+    float: right;
+
+      .login_form {
+        float: right;
+        height: 150px;
+        margin: 1em 1em 0 0;
+
+          input {
+
+          }
+
+          .login_button {
+            width: 4em;
+            height:2em;
+            background-color: trans-purple;
+            vertical-align: top;
+            padding: 1em;
+          }
+      }
+  }
+}
+

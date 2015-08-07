@@ -95,4 +95,30 @@ header {
   width: 300px;
   margin-left: -5em; }
 
+header.login_head .container_login_left {
+  width: 50%;
+  float: left;
+  background-color: rgba(245, 149, 133, 0.2);
+  height: 4em; }
+  header.login_head .container_login_left h2 {
+    margin-left: 2em;
+    display: inline-block;
+    margin-top: .5em;
+    float: left; }
+header.login_head .container_login_right {
+  width: 50%;
+  height: 4em;
+  background-color: rgba(245, 149, 133, 0.2);
+  float: right; }
+  header.login_head .container_login_right .login_form {
+    float: right;
+    height: 150px;
+    margin: 1em 1em 0 0; }
+    header.login_head .container_login_right .login_form .login_button {
+      width: 4em;
+      height: 2em;
+      background-color: trans-purple;
+      vertical-align: top;
+      padding: 1em; }
+
 /*# sourceMappingURL=style.css.map */
