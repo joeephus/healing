@@ -72,7 +72,7 @@ header {
   float: left; }
 
 /*
-//Carousel
+// ------------------------- Carousel -----------------------------
 .carousel {
   text-align: center;  
   width: 100%;
@@ -114,11 +114,28 @@ header.login_head .container_login_right {
     float: right;
     height: 150px;
     margin: 1em 1em 0 0; }
+    header.login_head .container_login_right .login_form input {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
     header.login_head .container_login_right .login_form .login_button {
-      width: 4em;
+      width: 5em;
       height: 2em;
       background-color: trans-purple;
-      vertical-align: top;
-      padding: 1em; }
+      border-radius: 0;
+      text-align: center;
+      margin-top: -.1em;
+      -webkit-transition: all 0.2s ease-in; }
+      header.login_head .container_login_right .login_form .login_button:hover {
+        background-color: white;
+        color: black; }
+
+.container-content-left {
+  width: 50%;
+  float: left;
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  background-color: grey;
+  height: 40em; }
 
 /*# sourceMappingURL=style.css.map */

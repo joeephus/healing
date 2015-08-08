@@ -33,7 +33,7 @@ body {
     background-size: cover;
 }
 
-//header
+// --------------- Video Bg page header -------------------
 header {
   background: transparent;
 
@@ -96,7 +96,7 @@ header {
   float: left;
 }
 /*
-//Carousel
+// ------------------------- Carousel -----------------------------
 .carousel {
   text-align: center;  
   width: 100%;
@@ -123,6 +123,7 @@ header {
 
 //login page
 
+//--------------------------- header ---------------------
 header.login_head {
 
   .container_login_left {
@@ -152,17 +153,37 @@ header.login_head {
         margin: 1em 1em 0 0;
 
           input {
-
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
           }
 
           .login_button {
-            width: 4em;
+            width: 5em;
             height:2em;
             background-color: trans-purple;
-            vertical-align: top;
-            padding: 1em;
+            border-radius: 0;
+            text-align: center;
+            margin-top: -.1em;
+            -webkit-transition: all 0.2s ease-in;
+             &:hover {
+              background-color: white;
+              color: black;
+             }
           }
       }
   }
 }
+
+// ---------------- login form section ----------------------
+.container-content-left {
+  width: 50%;
+  float: left;
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  background-color: grey;
+  height: 40em;
+
+}
+
 
