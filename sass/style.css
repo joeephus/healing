@@ -21,7 +21,7 @@ body {
   z-index: -1000;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(hhanimatic.jpg) no-repeat;
+  background: url("hhanimatic.jpg") no-repeat;
   background-size: cover; }
 
 header {
@@ -128,14 +128,25 @@ header.login_head .container_login_right {
       -webkit-transition: all 0.2s ease-in; }
       header.login_head .container_login_right .login_form .login_button:hover {
         background-color: white;
-        color: black; }
+        color: black;
+        box-shadow: inset 1px 1px; }
+
+.login-main {
+  background-color: #FFFAFF; }
 
 .container-content-left {
   width: 50%;
   float: left;
   font-family: lato, sans-serif;
   font-weight: 300;
-  background-color: grey;
+  background-image: url("../images/birds_flying.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 40em; }
+  .container-content-left p {
+    line-height: 2em;
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 2.2em; }
 
 /*# sourceMappingURL=style.css.map */

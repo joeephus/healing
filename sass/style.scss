@@ -3,6 +3,9 @@
 
 $light-purple: #FF53CC;
 $trans-purple: rgba(245, 149, 133, 0.2);
+$primary-color: #FFFAFF;
+$secondary-color: E2FFC5;
+
 
 *{
   margin: 0;
@@ -29,7 +32,7 @@ body {
     z-index: -1000;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(hhanimatic.jpg) no-repeat;
+    background: url('hhanimatic.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -166,24 +169,36 @@ header.login_head {
             text-align: center;
             margin-top: -.1em;
             -webkit-transition: all 0.2s ease-in;
-             &:hover {
-              background-color: white;
-              color: black;
-             }
+              &:hover {
+                background-color: white;
+                color: black;
+                box-shadow: inset 1px 1px; 
+              }
           }
       }
   }
 }
 
 // ---------------- login form section ----------------------
+.login-main {
+  background-color: $primary-color;
+}
+
 .container-content-left {
   width: 50%;
   float: left;
   font-family: lato, sans-serif;
   font-weight: 300;
-  background-color: grey;
+  background-image: url('../images/birds_flying.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 40em;
-
+    p {
+      line-height: 2em;
+      font-size: 2em;
+      font-weight: 300;
+      margin-top: 2.2em;
+    }
 }
 
 
