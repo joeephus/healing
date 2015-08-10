@@ -201,4 +201,23 @@ header.login_head {
     }
 }
 
+.form-content {
+  width: 50%;
+  float: left;
+  height: 40em;
+
+    input {
+      display: block;
+      width: 80%;
+      height: 4em; 
+      margin: .1em;
+      border: 1px solid $trans-purple;
+    } 
+
+    .name {
+      float: left;
+      width: 40%;
+    }
+}
+
 

@@ -149,4 +149,18 @@ header.login_head .container_login_right {
     font-weight: 300;
     margin-top: 2.2em; }
 
+.form-content {
+  width: 50%;
+  float: left;
+  height: 40em; }
+  .form-content input {
+    display: block;
+    width: 80%;
+    height: 4em;
+    margin: .1em;
+    border: 1px solid rgba(245, 149, 133, 0.2); }
+  .form-content .name {
+    float: left;
+    width: 40%; }
+
 /*# sourceMappingURL=style.css.map */
